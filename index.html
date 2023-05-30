@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tacogh.github.io</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 25px;
+            overflow: hidden;
+            background-color: orange;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .category {
+			width: 103.8%;
+            background-color: white;
+            margin-top: 30px;
+            font-size: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+			animation: intro4 1s;
+			overflow-x: auto;
+			max-height: 425px;
+        }
+
+        .category h2 {
+            width: 100%;
+        }
+		
+		.category h3 {
+			margin-top: -30px;
+            width: 100%;
+			font-size: 20px;
+        }
+
+        .image-container {
+            width: 12%;
+            height: 300px;
+            margin: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            border: 3px solid black;
+			animation: intro2 1s;
+        }
+
+        .filename {
+            border: 3px solid black;
+            font-size: 20px;
+            margin-top: 10px;
+            width: 130%;
+			animation: intro3 1s;
+        }
+		
+		@keyframes intro {
+            0% {
+                height: 0px;
+				width: 0%;
+            }
+			100% {
+				height: 300px;
+				width: 12%;
+            }
+        }
+		
+		@keyframes intro2 {
+            0% {
+                width: 0%;
+            }
+			100% {
+				width: 100%;
+            }
+        }
+		
+		@keyframes intro3 {
+            0% {
+                width: 0%;
+            }
+			100% {
+				width: 130%;
+            }
+        }
+		
+		@keyframes intro4 {
+            0% {
+                width: 0%;
+            }
+			100% {
+				width: 103.8%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">tacogh.github.io</h1>
+    <div class="category">
+        <h2>GIFs</h2>
+		<h3>Use copy image address for gifs when trying using them</h3>
+        <div class="image-container">
+            <img src="sicktricks.gif" alt="Sick Tricks!">
+            <p class="filename">sicktricks.gif (ART NOT BY ME)</p>
+        </div>
+        <div class="image-container">
+            <img src="sunkers.gif" alt="Crused Sunky">
+            <p class="filename">sunkers.gif (ART NOT BY ME)</p>
+        </div>
+        <div class="image-container">
+            <img src="blueguy.gif" alt="blue mafakar.">
+            <p class="filename">blueguy.gif</p>
+        </div>
+		<div class="image-container">
+            <img src="pissinopizza.gif" alt="Pissino's Pizza World 3!">
+            <p class="filename">pissinopizza.gif</p>
+        </div>
+		<div class="image-container">
+            <img src="spheremessage.gif" alt="The message is a sphere...">
+            <p class="filename">spheremessage.gif</p>
+        </div>
+		<div class="image-container">
+            <img src="snickdies.gif" alt="Snick dies when getting crushed">
+            <p class="filename">snickdies.gif</p>
+        </div>
+		<h3>More GIFs later!</h3>
+    </div>
+	<h12 id="text">- - - - - </h12>
+	<h12 id="text">- - - - - </h12>
+	<h12 id="text">- V1.0.0 -</h12>
+	<h12 id="text">- - - - - </h12>
+	<h12 id="text">- - - - - </h12>
+    <!-- <div class="category"> -->
+        <!-- <h2>Art</h2> -->
+    <!-- </div> -->
+    <!-- <div class="category"> -->
+        <!-- <h2>Music</h2> -->
+    <!-- </div> -->
+</body>
+</html>
